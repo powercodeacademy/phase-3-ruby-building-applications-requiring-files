@@ -146,8 +146,6 @@ The [`require_relative`][] method accepts a _relative file path_ to the file we
 want to require. This means we're providing a file path that starts from the
 file in which the `require_relative` statement is called.
 
-[require_relative]: https://ruby-doc.org/core-2.7.3/Kernel.html#method-i-require_relative
-
 ```ruby
 require_relative '../lib/ruby_file.rb'
 ```
